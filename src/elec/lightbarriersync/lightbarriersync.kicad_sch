@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "3253abce-1256-46d2-b3a6-ba4efbf8f27c")
 	(paper "A4")
+	(title_block
+		(title "${TITLE}")
+		(date "2026-04-18")
+		(rev "${VERSION}")
+		(company "${ORG}")
+		(comment 1 "${NAME}")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
