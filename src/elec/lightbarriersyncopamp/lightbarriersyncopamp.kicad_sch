@@ -5694,7 +5694,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LM324A"
+		(property "Value" "TLV9004IDR"
 			(at 119.38 180.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5716,7 +5716,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9004.pdf"
 			(at 121.92 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -5727,7 +5727,7 @@
 				)
 			)
 		)
-		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+		(property "Description" "Low-Power RRIO Quad-Operational Amplifiers, SOIC-14"
 			(at 120.65 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -6077,7 +6077,7 @@
 				)
 			)
 		)
-		(property "Value" "LM324A"
+		(property "Value" "TLV9004IDR"
 			(at 78.74 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6098,7 +6098,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9004.pdf"
 			(at 80.01 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -6109,7 +6109,7 @@
 				)
 			)
 		)
-		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+		(property "Description" "Low-Power RRIO Quad-Operational Amplifiers, SOIC-14"
 			(at 78.74 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6121,46 +6121,46 @@
 			)
 		)
 		(pin "9"
-			(uuid "8b14f05d-e6cf-4b5f-8e46-90f36ec541b2")
+			(uuid "8b14f05d-e6cf-4b5f-8e46-90f36ec541b3")
 		)
 		(pin "11"
-			(uuid "64fdee8e-0310-4169-b3fa-c5c89cd4030d")
+			(uuid "64fdee8e-0310-4169-b3fa-c5c89cd4030e")
 		)
 		(pin "4"
-			(uuid "397b7395-3f6e-47b2-baf2-8eb26f3d6d3b")
+			(uuid "397b7395-3f6e-47b2-baf2-8eb26f3d6d3c")
 		)
 		(pin "10"
-			(uuid "b9d17646-608e-441b-90a7-36bf0d77ad54")
+			(uuid "b9d17646-608e-441b-90a7-36bf0d77ad55")
 		)
 		(pin "1"
-			(uuid "8a386468-eb9c-4fcf-831b-f7d511033d4d")
+			(uuid "8a386468-eb9c-4fcf-831b-f7d511033d4e")
 		)
 		(pin "12"
-			(uuid "c50e5b91-e1a6-49d3-aed7-00a96a8136c1")
+			(uuid "c50e5b91-e1a6-49d3-aed7-00a96a8136c2")
 		)
 		(pin "13"
-			(uuid "aca1d10e-53ae-4569-85c0-11af163fcb6a")
+			(uuid "aca1d10e-53ae-4569-85c0-11af163fcb6b")
 		)
 		(pin "8"
-			(uuid "e01d227a-7a8c-41b4-bbee-4383723b1734")
+			(uuid "e01d227a-7a8c-41b4-bbee-4383723b1735")
 		)
 		(pin "7"
-			(uuid "867c00f4-550a-47c1-82a7-df8e950a426d")
+			(uuid "867c00f4-550a-47c1-82a7-df8e950a426e")
 		)
 		(pin "6"
-			(uuid "3cdc9cbc-5f7d-4902-ab4b-9e3920f0d91f")
+			(uuid "3cdc9cbc-5f7d-4902-ab4b-9e3920f0d920")
 		)
 		(pin "5"
-			(uuid "13d47a51-d34b-4eeb-90b4-a46396f384bb")
+			(uuid "13d47a51-d34b-4eeb-90b4-a46396f384bc")
 		)
 		(pin "3"
-			(uuid "e0f71ce7-b993-470b-a4e5-35f926389bc9")
+			(uuid "e0f71ce7-b993-470b-a4e5-35f926389bca")
 		)
 		(pin "2"
-			(uuid "fe721cc5-d999-48a2-b7e1-94c0d020cc00")
+			(uuid "fe721cc5-d999-48a2-b7e1-94c0d020cc01")
 		)
 		(pin "14"
-			(uuid "ddc43891-1b9c-40d5-879f-6d957fdb0b0e")
+			(uuid "ddc43891-1b9c-40d5-879f-6d957fdb0b0f")
 		)
 		(instances
 			(project "lightbarriersyncopamp"
@@ -8664,7 +8664,7 @@
 				)
 			)
 		)
-		(property "Value" "LM324A"
+		(property "Value" "TLV9004IDR"
 			(at 64.77 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8685,7 +8685,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9004.pdf"
 			(at 66.04 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -8696,7 +8696,7 @@
 				)
 			)
 		)
-		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+		(property "Description" "Low-Power RRIO Quad-Operational Amplifiers, SOIC-14"
 			(at 64.77 127 0)
 			(hide yes)
 			(show_name no)
@@ -8708,46 +8708,46 @@
 			)
 		)
 		(pin "9"
-			(uuid "8b14f05d-e6cf-4b5f-8e46-90f36ec541b2")
+			(uuid "8b14f05d-e6cf-4b5f-8e46-90f36ec541b4")
 		)
 		(pin "11"
-			(uuid "64fdee8e-0310-4169-b3fa-c5c89cd4030d")
+			(uuid "64fdee8e-0310-4169-b3fa-c5c89cd4030f")
 		)
 		(pin "4"
-			(uuid "397b7395-3f6e-47b2-baf2-8eb26f3d6d3b")
+			(uuid "397b7395-3f6e-47b2-baf2-8eb26f3d6d3d")
 		)
 		(pin "10"
-			(uuid "b9d17646-608e-441b-90a7-36bf0d77ad54")
+			(uuid "b9d17646-608e-441b-90a7-36bf0d77ad56")
 		)
 		(pin "1"
-			(uuid "8a386468-eb9c-4fcf-831b-f7d511033d4d")
+			(uuid "8a386468-eb9c-4fcf-831b-f7d511033d4f")
 		)
 		(pin "12"
-			(uuid "c50e5b91-e1a6-49d3-aed7-00a96a8136c1")
+			(uuid "c50e5b91-e1a6-49d3-aed7-00a96a8136c3")
 		)
 		(pin "13"
-			(uuid "aca1d10e-53ae-4569-85c0-11af163fcb6a")
+			(uuid "aca1d10e-53ae-4569-85c0-11af163fcb6c")
 		)
 		(pin "8"
-			(uuid "e01d227a-7a8c-41b4-bbee-4383723b1734")
+			(uuid "e01d227a-7a8c-41b4-bbee-4383723b1736")
 		)
 		(pin "7"
-			(uuid "867c00f4-550a-47c1-82a7-df8e950a426d")
+			(uuid "867c00f4-550a-47c1-82a7-df8e950a426f")
 		)
 		(pin "6"
-			(uuid "3cdc9cbc-5f7d-4902-ab4b-9e3920f0d91f")
+			(uuid "3cdc9cbc-5f7d-4902-ab4b-9e3920f0d921")
 		)
 		(pin "5"
-			(uuid "13d47a51-d34b-4eeb-90b4-a46396f384bb")
+			(uuid "13d47a51-d34b-4eeb-90b4-a46396f384bd")
 		)
 		(pin "3"
-			(uuid "e0f71ce7-b993-470b-a4e5-35f926389bc9")
+			(uuid "e0f71ce7-b993-470b-a4e5-35f926389bcb")
 		)
 		(pin "2"
-			(uuid "fe721cc5-d999-48a2-b7e1-94c0d020cc00")
+			(uuid "fe721cc5-d999-48a2-b7e1-94c0d020cc02")
 		)
 		(pin "14"
-			(uuid "ddc43891-1b9c-40d5-879f-6d957fdb0b0e")
+			(uuid "ddc43891-1b9c-40d5-879f-6d957fdb0b10")
 		)
 		(instances
 			(project "lightbarriersyncopamp"
@@ -9300,7 +9300,7 @@
 				)
 			)
 		)
-		(property "Value" "LM324A"
+		(property "Value" "TLV9004IDR"
 			(at 53.34 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9321,7 +9321,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9004.pdf"
 			(at 54.61 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -9332,7 +9332,7 @@
 				)
 			)
 		)
-		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+		(property "Description" "Low-Power RRIO Quad-Operational Amplifiers, SOIC-14"
 			(at 53.34 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9344,46 +9344,46 @@
 			)
 		)
 		(pin "9"
-			(uuid "8b14f05d-e6cf-4b5f-8e46-90f36ec541b2")
+			(uuid "8b14f05d-e6cf-4b5f-8e46-90f36ec541b5")
 		)
 		(pin "11"
-			(uuid "64fdee8e-0310-4169-b3fa-c5c89cd4030d")
+			(uuid "64fdee8e-0310-4169-b3fa-c5c89cd40310")
 		)
 		(pin "4"
-			(uuid "397b7395-3f6e-47b2-baf2-8eb26f3d6d3b")
+			(uuid "397b7395-3f6e-47b2-baf2-8eb26f3d6d3e")
 		)
 		(pin "10"
-			(uuid "b9d17646-608e-441b-90a7-36bf0d77ad54")
+			(uuid "b9d17646-608e-441b-90a7-36bf0d77ad57")
 		)
 		(pin "1"
-			(uuid "8a386468-eb9c-4fcf-831b-f7d511033d4d")
+			(uuid "8a386468-eb9c-4fcf-831b-f7d511033d50")
 		)
 		(pin "12"
-			(uuid "c50e5b91-e1a6-49d3-aed7-00a96a8136c1")
+			(uuid "c50e5b91-e1a6-49d3-aed7-00a96a8136c4")
 		)
 		(pin "13"
-			(uuid "aca1d10e-53ae-4569-85c0-11af163fcb6a")
+			(uuid "aca1d10e-53ae-4569-85c0-11af163fcb6d")
 		)
 		(pin "8"
-			(uuid "e01d227a-7a8c-41b4-bbee-4383723b1734")
+			(uuid "e01d227a-7a8c-41b4-bbee-4383723b1737")
 		)
 		(pin "7"
-			(uuid "867c00f4-550a-47c1-82a7-df8e950a426d")
+			(uuid "867c00f4-550a-47c1-82a7-df8e950a4270")
 		)
 		(pin "6"
-			(uuid "3cdc9cbc-5f7d-4902-ab4b-9e3920f0d91f")
+			(uuid "3cdc9cbc-5f7d-4902-ab4b-9e3920f0d922")
 		)
 		(pin "5"
-			(uuid "13d47a51-d34b-4eeb-90b4-a46396f384bb")
+			(uuid "13d47a51-d34b-4eeb-90b4-a46396f384be")
 		)
 		(pin "3"
-			(uuid "e0f71ce7-b993-470b-a4e5-35f926389bc9")
+			(uuid "e0f71ce7-b993-470b-a4e5-35f926389bcc")
 		)
 		(pin "2"
-			(uuid "fe721cc5-d999-48a2-b7e1-94c0d020cc00")
+			(uuid "fe721cc5-d999-48a2-b7e1-94c0d020cc03")
 		)
 		(pin "14"
-			(uuid "ddc43891-1b9c-40d5-879f-6d957fdb0b0e")
+			(uuid "ddc43891-1b9c-40d5-879f-6d957fdb0b11")
 		)
 		(instances
 			(project "lightbarriersyncopamp"
@@ -9416,7 +9416,7 @@
 				)
 			)
 		)
-		(property "Value" "LM324A"
+		(property "Value" "TLV9004IDR"
 			(at 130.81 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9437,7 +9437,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9004.pdf"
 			(at 132.08 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -9448,7 +9448,7 @@
 				)
 			)
 		)
-		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+		(property "Description" "Low-Power RRIO Quad-Operational Amplifiers, SOIC-14"
 			(at 130.81 127 0)
 			(hide yes)
 			(show_name no)
@@ -9460,46 +9460,46 @@
 			)
 		)
 		(pin "9"
-			(uuid "8b14f05d-e6cf-4b5f-8e46-90f36ec541b2")
+			(uuid "8b14f05d-e6cf-4b5f-8e46-90f36ec541b6")
 		)
 		(pin "11"
-			(uuid "64fdee8e-0310-4169-b3fa-c5c89cd4030d")
+			(uuid "64fdee8e-0310-4169-b3fa-c5c89cd40311")
 		)
 		(pin "4"
-			(uuid "397b7395-3f6e-47b2-baf2-8eb26f3d6d3b")
+			(uuid "397b7395-3f6e-47b2-baf2-8eb26f3d6d3f")
 		)
 		(pin "10"
-			(uuid "b9d17646-608e-441b-90a7-36bf0d77ad54")
+			(uuid "b9d17646-608e-441b-90a7-36bf0d77ad58")
 		)
 		(pin "1"
-			(uuid "8a386468-eb9c-4fcf-831b-f7d511033d4d")
+			(uuid "8a386468-eb9c-4fcf-831b-f7d511033d51")
 		)
 		(pin "12"
-			(uuid "c50e5b91-e1a6-49d3-aed7-00a96a8136c1")
+			(uuid "c50e5b91-e1a6-49d3-aed7-00a96a8136c5")
 		)
 		(pin "13"
-			(uuid "aca1d10e-53ae-4569-85c0-11af163fcb6a")
+			(uuid "aca1d10e-53ae-4569-85c0-11af163fcb6e")
 		)
 		(pin "8"
-			(uuid "e01d227a-7a8c-41b4-bbee-4383723b1734")
+			(uuid "e01d227a-7a8c-41b4-bbee-4383723b1738")
 		)
 		(pin "7"
-			(uuid "867c00f4-550a-47c1-82a7-df8e950a426d")
+			(uuid "867c00f4-550a-47c1-82a7-df8e950a4271")
 		)
 		(pin "6"
-			(uuid "3cdc9cbc-5f7d-4902-ab4b-9e3920f0d91f")
+			(uuid "3cdc9cbc-5f7d-4902-ab4b-9e3920f0d923")
 		)
 		(pin "5"
-			(uuid "13d47a51-d34b-4eeb-90b4-a46396f384bb")
+			(uuid "13d47a51-d34b-4eeb-90b4-a46396f384bf")
 		)
 		(pin "3"
-			(uuid "e0f71ce7-b993-470b-a4e5-35f926389bc9")
+			(uuid "e0f71ce7-b993-470b-a4e5-35f926389bcd")
 		)
 		(pin "2"
-			(uuid "fe721cc5-d999-48a2-b7e1-94c0d020cc00")
+			(uuid "fe721cc5-d999-48a2-b7e1-94c0d020cc04")
 		)
 		(pin "14"
-			(uuid "ddc43891-1b9c-40d5-879f-6d957fdb0b0e")
+			(uuid "ddc43891-1b9c-40d5-879f-6d957fdb0b12")
 		)
 		(instances
 			(project "lightbarriersyncopamp"
