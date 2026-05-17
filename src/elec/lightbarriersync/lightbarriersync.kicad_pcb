@@ -13,6 +13,7 @@
 		(rev "${VERSION}")
 		(company "${ORG}")
 		(comment 1 "${NAME}")
+		(comment 4 "AISLER Project ID: GODNUVUS")
 	)
 	(layers
 		(0 "F.Cu" signal)
