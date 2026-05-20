@@ -96,7 +96,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -7249,7 +7248,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C7"
-			(at 0 -1.68 0)
+			(at 0.0864 1.8288 0)
 			(layer "F.SilkS")
 			(uuid "f9eb9417-7d50-4671-8b30-65a00d2260ed")
 			(effects
@@ -9843,7 +9842,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D8"
-			(at 3.4798 -0.1524 90)
+			(at -0.4064 1.5748 90)
 			(layer "F.SilkS")
 			(uuid "0a23bcf3-0616-4a70-8764-7753946accf5")
 			(effects
