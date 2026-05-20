@@ -5,11 +5,11 @@
 	(uuid "25642f40-c577-4c48-9e64-fb6733cf316e")
 	(paper "A4")
 	(title_block
-		(title "Lightbarrier Snyc Op")
+		(title "${TITLE}")
 		(date "2026-05-15")
-		(rev "0.1")
-		(company "Stefan Helmert")
-		(comment 1 "entroserv.de")
+		(rev "${VERSION}")
+		(company "${ORG}")
+		(comment 1 "${NAME}")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:LM324A"
@@ -3322,6 +3322,12 @@
 		(uuid "4fc3bb8f-6928-46c4-b6cb-c24596754ac3")
 	)
 	(junction
+		(at 52.07 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50e2436d-3efa-43f0-a5bc-82063c57ecbd")
+	)
+	(junction
 		(at 38.1 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3380,6 +3386,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74070b4a-fb37-4744-acfb-ba7137b2eb9d")
+	)
+	(junction
+		(at 39.37 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b0f44c5-0d76-4359-88a4-fd03f48aac20")
 	)
 	(junction
 		(at 149.86 127)
@@ -3458,6 +3470,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fde565bd-c13d-41b2-adc4-bbec7e72f469")
+	)
+	(no_connect
+		(at 91.44 181.61)
+		(uuid "11f0511e-b4ec-4328-914f-da3acd848fdf")
+	)
+	(no_connect
+		(at 91.44 176.53)
+		(uuid "78ddc8b0-fa57-46c8-90ba-d1ee5d464f0b")
+	)
+	(no_connect
+		(at 91.44 171.45)
+		(uuid "880eb4bb-2572-4f8f-bc4a-eeec0b89295a")
 	)
 	(wire
 		(pts
@@ -3758,6 +3782,16 @@
 			(type default)
 		)
 		(uuid "2adc5134-0d66-4995-a61b-82a4831f867d")
+	)
+	(wire
+		(pts
+			(xy 52.07 190.5) (xy 39.37 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bcbd4d8-40b9-4c5b-8ab5-e0823463be85")
 	)
 	(wire
 		(pts
@@ -4178,6 +4212,16 @@
 			(type default)
 		)
 		(uuid "7b903c92-bc03-4c70-88ed-cca842ab04f0")
+	)
+	(wire
+		(pts
+			(xy 39.37 190.5) (xy 39.37 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bcab4cf-aeb0-46c6-9892-ac6dd75635c9")
 	)
 	(wire
 		(pts
@@ -4778,6 +4822,16 @@
 			(type default)
 		)
 		(uuid "e4638583-e208-4343-9346-95ecce06bf17")
+	)
+	(wire
+		(pts
+			(xy 39.37 181.61) (xy 39.37 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5838502-edde-42c5-a5c7-202518cb3883")
 	)
 	(wire
 		(pts
@@ -7365,7 +7419,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SFH203"
+		(property "Value" "WP7113PD1BT"
 			(at 29.21 142.5828 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7387,7 +7441,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.osram-os.com/Graphics/XPic9/00101656_0.pdf/SFH%20203,%20SFH%20203%20FA,%20Lead%20(Pb)%20Free%20Product%20-%20RoHS%20Compliant.pdf"
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113PD1BT-BD-P22.pdf"
 			(at 24.13 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -7667,6 +7721,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 39.37 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "644c53ec-b68a-4dd4-b9f0-856724b3250b")
+		(property "Reference" "C7"
+			(at 41.91 182.8862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2u2"
+			(at 41.91 185.4262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 39.37 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 39.37 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54081769-d154-4629-8960-2a152ef65e7f")
+		)
+		(pin "2"
+			(uuid "3ac199e5-cc45-4fc1-a7c1-aeb518da050e")
+		)
+		(instances
+			(project "lightbarriersyncopamp"
+				(path "/25642f40-c577-4c48-9e64-fb6733cf316e"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 161.29 138.43 0)
 		(unit 1)
@@ -7771,7 +7907,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LD271"
+		(property "Value" "WP7113F3BT"
 			(at 115.57 46.8629 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7793,7 +7929,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.alliedelec.com/m/d/40788c34903a719969df15f1fbea1056.pdf"
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113F3BT.pdf"
 			(at 113.03 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -10522,7 +10658,8 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148W")
-		(at 54.61 140.97 90)
+		(at 54.61 140.97 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10530,10 +10667,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f08a02af-4ffc-4666-9b88-bc6092fbf1ac")
 		(property "Reference" "D4"
-			(at 57.15 139.6999 90)
+			(at 52.07 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10544,7 +10680,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 57.15 142.2399 90)
+			(at 52.07 142.2399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10555,7 +10691,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 59.055 140.97 0)
+			(at 50.165 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10729,7 +10865,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12k"
+		(property "Value" "10k"
 			(at 104.14 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
