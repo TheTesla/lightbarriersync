@@ -10519,10 +10519,10 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "send"
-		(at 103.8352 123.3932 270)
+	(gr_text "recv"
+		(at 103.8352 90.424 270)
 		(layer "B.SilkS")
-		(uuid "c2f7de89-e1a9-41c7-9435-dfb4b1cc9c00")
+		(uuid "fff8593a-84f1-4094-8442-9451b5a9ff3b")
 		(effects
 			(font
 				(size 1 1)
@@ -10531,10 +10531,10 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "recv"
-		(at 104.14 90.424 270)
+	(gr_text "send"
+		(at 103.8352 123.3932 270)
 		(layer "B.SilkS")
-		(uuid "fff8593a-84f1-4094-8442-9451b5a9ff3b")
+		(uuid "c2f7de89-e1a9-41c7-9435-dfb4b1cc9c00")
 		(effects
 			(font
 				(size 1 1)
